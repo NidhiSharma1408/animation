@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+#parent{
+    height: 100vh;
+    background-image: url("images/jungle.jpg");
+    position: relative;
+}
+#child{
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+
+}
