@@ -4,16 +4,30 @@
     scroll-behavior: smooth;
     overflow: hidden;
 }
+
 #parent{
     height: 100vh;
-    background-image: url("images/jungle.jpg");
+    background: cyan;
     position: relative;
 }
-#child{
-    width: auto;
-    height: auto;
+.child{
+    width: 100px;
+    height: 100px;
+    z-index: 2 ;
     position: absolute;
-    bottom: 0px;
-    left: 30px;
-
+}
+#main{
+    height: 70vh;
+    z-index: 3;
+    position: fixed;
+    top: 15vh;
+    left: 23vw;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(rgba(216, 129, 15, 0.932), rgba(10, 224, 46, 0.849));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
