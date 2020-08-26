@@ -16,6 +16,15 @@
     z-index: 2 ;
     position: absolute;
 }
+#c1,#c2,#c3,#c4,#c5,#c6{
+    height: 50px;
+    width: 50px;
+}
+#c7,#c8,#c9,#c10,#c11,#c12{
+    height: 75px;
+    width: 75px;
+}
+
 #main{
     height: 70vh;
     z-index: 3;
